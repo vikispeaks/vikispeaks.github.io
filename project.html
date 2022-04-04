@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com/"></script>
+  <title>Martial Arts Simulator</title>
+</head>
+<body>
+    <div class="relative flex flex-col justify-center">
+        <div class="relative bg-white mx-auto shadow-xl ring-1 ring-gray-900/5">
+            <canvas id="my-canvas" class="mx-auto" width="500px" height="500px">
+            </canvas>
+            <div class="p-10">
+              <button class="px-5 py-2.5 text-white bg-indigo-600 rounded-md duration-150 hover:bg-indigo-700 active:shadow-lg" id="kick">Kick  (Arrow Up Key) &uarr; </button>
+              <button class="px-5 py-2.5 text-white bg-indigo-600 rounded-md duration-150 hover:bg-indigo-700 active:shadow-lg" id="punch">Punch (Arrow Down Key) &darr;</button>
+              <button class="px-5 py-2.5 text-white bg-indigo-600 rounded-md duration-150 hover:bg-indigo-700 active:shadow-lg" id="block">Block (Spacebar)</button>
+              <button class="px-5 py-2.5 text-white bg-indigo-600 rounded-md duration-150 hover:bg-indigo-700 active:shadow-lg" id="backward">Backward (Left Arrow Key) &larr; </button>
+              <button class="px-5 py-2.5 text-white bg-indigo-600 rounded-md duration-150 hover:bg-indigo-700 active:shadow-lg" id="forward">Forward (Right Arrow Key) &rarr;</button>
+            </div>
+            </div>
+        </div>
+      </div>
+<script src="js/main.js"></script>
+</body>
+</html>
